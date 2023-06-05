@@ -1,0 +1,160 @@
+<!-- Main Content -->
+<main id="content">
+  <!-- Topbar -->
+  <nav
+    class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow"
+  >
+    <!-- Topbar Navigator for add/edit/delete product -->
+    <div class="row">
+      <!-- <button href="" class="link btn">Add New Product</button> -->
+      <a href="/#!/EditProduct/{{product.P_id}}" class="link btn">
+        Edit Product
+      </a>
+      <!-- Button trigger Delete modal -->
+      <button
+        type="button"
+        class="btn link"
+        data-toggle="modal"
+        data-target="#DeleteModal"
+      >
+        Delete Product
+      </button>
+    </div>
+
+    <!-- Delete Modal -->
+    <div
+      class="modal fade"
+      id="DeleteModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="DeleteModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="DeleteModalLabel">Delete Product</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Are You Sure You Want To Delete This Product ?
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Cancel
+            </button>
+            <button
+              href="/"
+              type="submit"
+              ng-click="DeleteProduct()"
+              class="btn btn-success"
+            >
+              Confirm
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="navbar-nav ml-auto">
+      <!-- Nav Item - Alerts Cart icon -->
+      <li class="nav-item dropdown no-arrow mx-1">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="alertsDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <i class="fas fa-shopping-cart"></i>
+          <!-- Counter - Alerts -->
+          <span class="badge badge-danger badge-counter">0</span>
+        </a>
+      </li>
+
+      <!-- Nav Item - User Information -->
+      <li class="nav-item dropdown no-arrow">
+        <a
+          class="nav-link dropdown-toggle"
+          id="userDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          <span class="mr-2 d-none d-lg-inline text-gray-600 small"
+            >Darpit Patel</span
+          >
+          <img
+            class="img-profile rounded-circle"
+            src="img/undraw_profile.svg"
+          />
+        </a>
+        <!-- Dropdown - User Information -->
+        <div
+          class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+          aria-labelledby="userDropdown"
+        >
+          <a class="dropdown-item" href="#">
+            <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+            Profile
+          </a>
+          <div class="dropdown-divider"></div>
+          <a
+            class="dropdown-item"
+            href="#"
+            data-toggle="modal"
+            data-target="#logoutModal"
+          >
+            <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+            Logout
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <!-- End of Topbar -->
+
+  <!-- Begin Page Content 2-->
+  <div class="container-fluid">
+    <div class="card shadow mb-4">
+      <div class="card-header py-3">
+        <h4 class="m-0 font-weight-bold text-primary pTitle">
+          {{product.P_Name}}
+        </h4>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="{{product.P_Image}}" alt="{{product.P_Name}}" />
+          </div>
+          <div class="col-md-6">
+            <h4>Product Description</h4>
+            <p class="description">{{product.P_Description}}</p>
+            <h4 class="Price">Price : {{product.P_Price}} ₹</h4>
+            <button href="#" class="btn btn-primary btn-icon-split bigButton">
+              <span
+                class="icon text-white-50 glyphicon glyphicon-shopping-cart"
+              >
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+              <span class="text">Add To Cart</span>
+            </button>
+            <h6 class="pCategory">Category : {{product.P_Category}}</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container-fluid 2-->
+</main>
+<!-- End of Main Content -->

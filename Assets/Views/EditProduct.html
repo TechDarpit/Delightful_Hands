@@ -1,0 +1,120 @@
+<!-- Main Content -->
+<main id="content" >
+
+    <!-- Topbar -->
+    <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+        <!-- Topbar Navigator for add/edit/delete product -->
+        <div>
+            <h3>Edit Product Details</h1>
+        </div>
+
+        <ul class="navbar-nav ml-auto">
+            <!-- Nav Item - Alerts Cart icon -->
+            <li class="nav-item dropdown no-arrow mx-1">
+                <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-shopping-cart"></i>
+                    <!-- Counter - Alerts -->
+                    <span class="badge badge-danger badge-counter">0</span>
+                </a>
+            </li>
+
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+                <a class="nav-link dropdown-toggle" id="userDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Darpit Patel</span>
+                    <img class="img-profile rounded-circle"
+                        src="img/undraw_profile.svg">
+                </a>
+                <!-- Dropdown - User Information -->
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
+                    aria-labelledby="userDropdown">
+                    <a class="dropdown-item" href="#">
+                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                        Profile
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                        Logout
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- End of Topbar -->
+
+    <!-- Begin Page Content 2-->
+    <div class="container-fluid">
+
+        <div class="card shadow mb-4">
+            <div class="card-body">
+                
+                <form action="" class="needs-validation" novalidate>
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="mb-3">
+                                <label for="ProductName" class="form-label">Product Name</label>
+                                <input class="form-control" type="text" placeholder="Enter Product Name..." value="{{product.P_Name}}" required >
+                                <div class="invalid-feedback">
+                                    Please Enter Product Name.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="ProductDescription" class="form-label">Product Description</label>
+                                <textarea class="form-control" id="ProductDescription" rows="4" placeholder="Enter Product Description..." required>{{product.P_Description}}</textarea>
+                                <div class="invalid-feedback">
+                                    Please Enter Product Description.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="ProductPrice" class="form-label">Price</label>
+                                <input class="form-control" type="text" placeholder="Enter Product Price..."  value="{{product.P_Price}}" required>
+                                <div class="invalid-feedback">
+                                    Please Enter Price.
+                                </div>
+                            </div>
+                            <div class="md-3">
+                                <label for="ProductCategory" class="form-label">Category</label>
+                                <select class="form-control" id="ProductCategory" value="{{product.P_Category}}" required>
+                                  <option selected disabled value="">Choose Category</option>
+                                  <option>Indigenous </option>
+                                  <option>Impression</option>
+                                  <option>Feel</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                  Please select a Category.
+                                </div>
+                            </div>
+                            <div class="FormBtnMarginTop">
+                                <button class="btn btn-success" type="submit">Update</button>
+                                <a href="/#!/ProductDetails/{{product.P_id}}" class="btn btn-danger" type="reset">Discard</a>
+                            </div>
+
+                        </div>
+                        <div class="col-5">
+                            
+                            <div class="col-sm-10">
+                                <div id="msg"></div>
+                                <div method="post" id="image-form">
+                                    <div class="custom-file">
+                                        <input type="file" class="btn custom-file-input browse" id="customFile" accept="image/*">
+                                        <label class="custom-file-label" for="customFile">Choose Image</label>
+                                        <div class="invalid-feedback ">Please Uplode Product Image.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-10">
+                                <img id="preview" class="img-thumbnail" src="{{product.P_Image}}">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /.container-fluid 2-->
+
+</main>
+<!-- End of Main Content -->

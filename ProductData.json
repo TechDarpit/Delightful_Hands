@@ -1,0 +1,151 @@
+[
+    {
+        "P_id":1,
+        "P_Name":"Engraved Planter",
+        "P_Image":"Images/Impression/Engraved Planter.jpg",
+        "P_Price":"6,990.00",
+        "P_Description":"A stone planter sporting the flowing hand beaten ribbed lines, abruptly end short but pronounced irregular carved pattern. A normative symbology of pervious sun-kissed sand breaking on to the banks of impermeable pebble dunes, along the Tropics. Bring to your interior a decor with artistic amalgamation of contrasting textures, shapes and variating depictions.",
+        "P_Category":"Impression"
+    },
+    {
+        "P_id":2,
+        "P_Name":"Floral Bloom Table Clock",
+        "P_Image":"Images/Impression/Floral Bloom Table Clock.jpg",
+        "P_Price":"3,400.00",
+        "P_Description":"An intricate floral and leafy creeper motif, hand-etched to decoratively border to unordained nature of time. Furnish your setting with a unique table clock of art form that has stood the test of time. Ironic!",
+        "P_Category":"Impression"
+    },{
+        "P_id":3,
+        "P_Name":"Regal Candle Stand",
+        "P_Image":"Images/Impression/Regal Candle Stand.jpg",
+        "P_Price":"7,300.00",
+        "P_Description":"A handcrafted candle stand inspired by the regal symbology of elephants and free-spirited fish from depths of the ocean. Accent your table setting with this chic representation of heritage.",
+        "P_Category":"Impression"
+    },{
+        "P_id":4,
+        "P_Name":"Sculpted Pendant Lamp",
+        "P_Image":"Images/Impression/Sculpted Pendant Lamp.jpg",
+        "P_Price":"7,700.00",
+        "P_Description":"Liven up your setting with this unique stone-work pendant light. An artist’s impression of indigenous craft presented in a stylised imagery. The hand-chiselled fish scales onto the stone is symbolic to the co-existence of the two primal elements, since conception of life on earth. The trio-arrangement of pendant light also derives inspiration from the symbolism to the environmental trinity – land, water, air ,SET OF THREE",
+        "P_Category":"Impression"
+    },{
+        "P_id":5,
+        "P_Name":"Stone Sculpture Lamp",
+        "P_Image":"Images/Impression/Stone Sculpture Lamp.jpg",
+        "P_Price":"7,699.00",
+        "P_Description":"Ringing to your outdoor an illuminated stone sculpture. Subtly hand-etched pattern, depicting the imperfectly harmonious oceanic waves. Drama of the inner carvings heightened with a playful combination of The Bright & The Shadow. Life mimicked!",
+        "P_Category":"Impression"
+    },{
+        "P_id":6,
+        "P_Name":"Nabula Stone Light",
+        "P_Image":"Images/Impression/Nabula Stone Light.jpg",
+        "P_Price":"5,600.00",
+        "P_Description":"Presenting you with a stellar inspired decor. A hand-moulded epoxy tea-light with black stone insert, bringing to your table a nebulous sculpture.",
+        "P_Category":"Impression"
+    },{
+        "P_id":7,
+        "P_Name":"Stone Wall Lamp",
+        "P_Image":"Images/Impression/Stone Wall Lamp.jpg",
+        "P_Price":"3,799.00",
+        "P_Description":"Light-up your interior with this decorative wall-light. Intricately hand- etched, the ornate depiction, raw texture & sandy pallet to render the art palpable and visual interests. choice of three different motifs, Elephant – A synonym of prosperity  , Mouse – representation of creativity, development and sociability & Floral Motif that has been adorning the ancient temples from time immemorial.  Selected Pieces are available in two different colours.Sold as a Set of two.",
+        "P_Category":"Impression"
+    },{
+        "P_id":8,
+        "P_Name":"Stone Trinklet Wind Chime",
+        "P_Image":"Images/Impression/Stone Trinklet Wind Chime.jpg",
+        "P_Price":"4,700.00",
+        "P_Description":"Presenting a craft ever so melodic, transforming into clapper of the balmy breeze. An artistic illusion of assorted mix of trinklets slung from the ruggedly wooden_cloud_ forma.",
+        "P_Category":"Impression"
+    },
+    {
+        "P_id":9,
+        "P_Name":"Badak Clay Decanter",
+        "P_Image":"Images/Indigenous/Badak Clay Decanter.jpg",
+        "P_Price":"2,000.00",
+        "P_Description":"Hand painted clay decanter, reminiscent of an era bygone, is unique in every way. it uses basic science of condensation to cool any liquid.Presented in its primal form, ‘Badak’ a traditional vessel from indus valley civilisation, will surely add distinctive beauty to your wine setting.Place Badak Decanter on sand or cotton cloth as due to condensation water/wine ring can be formed at the base. Badak might absorb some wine if left for longer period. Keep it filled with water overnight to reduce the absorption.",
+        "P_Category":"Indigenous"
+    },{
+        "P_id":10,
+        "P_Name":"Cinoni Clay Decanter",
+        "P_Image":"Images/Indigenous/Cinoni Clay Decanter.jpg",
+        "P_Price":"2,300.00",
+        "P_Description":"A clay decanter like no other. Indigenous in its form and shape, is handcrafted with care. It is rudimentary & raw, telling the tale of tradition that can be traced back to 5500 BCE. it uses basic science of condensation to cool any liquid.Traditionally used to contain water, this piece of craft will surely add to your collection.Place Cinoni Clay Decanter on sand or cotton cloth as due to condensation water/wine ring can be formed at the base. Cinoni might absorb some wine if left for longer period. Keep it filled with water overnight to reduce the absorption.",
+        "P_Category":"Indigenous"
+    },
+    {
+        "P_id":11,
+        "P_Name":"Khavda Tea Set",
+        "P_Image":"Images/Indigenous/Khavda Tea Set.jpg",
+        "P_Price":"2,500.00",
+        "P_Description":"The Khavda tea set is beautifully hand decorated in indigenous craft of khavda pottery. Raw from outside and glazed from inside, this work of art is all organic, made with intricate care. Surely a conversation starter For your next high tea.Tea Pot Dimension: 10 x 10 X 22 cm &  Weight: 1 kgs. Glass dimension: 8 X 10 X 8 cm & Weight: 0. 2 kgs each",
+        "P_Category":"Indigenous"
+    },
+    {
+        "P_id":12,
+        "P_Name":"Hand-Painted Dinner Set",
+        "P_Image":"Images/Indigenous/Hand-Painted Dinner Set.jpg",
+        "P_Price":"4,900.00",
+        "P_Description":"Hosting your friends or just treating yourself, this dinner set would always set the mood right. Each piece is individually decorated & Intricately hand painted with traditional art, using all organic material. Such a unique addition to your dinnerware collection.1 Serving Plate: 35 x 35 x 5 cm & Weight: 1 kg.  2 Dinner Plates: 27 x 27 x 3 cm & Weight: 0.7 kg Each.  2 Bowls: 12 x 12 x 6 cm & Weight: 0.3 kg Each.",
+        "P_Category":"Indigenous"
+    },
+    {
+        "P_id":13,
+        "P_Name":"Hand-Painted Serving Bowl",
+        "P_Image":"Images/Indigenous/Hand-Painted Serving Bowl.jpg",
+        "P_Price":"1,600.00",
+        "P_Description":"Available in two different sizes. These handcrafted and intricately painted bowls are reminiscent of the time bygone. straight from the chaste era, the serve ware is statement in itself.",
+        "P_Category":"Indigenous"
+    },
+    {
+        "P_id":14,
+        "P_Name":"Hand Decorated Glass",
+        "P_Image":"Images/Indigenous/Hand Decorated Glass.jpg",
+        "P_Price":"350.00",
+        "P_Description":"Indigenous in its form and shape, is handcrafted with care. It is rudimentary & raw, telling the tale of tradition that can be traced back to 5500 BCE.This piece of craft will surely add to your collection. Each Glass Sold Separately.",
+        "P_Category":"Indigenous"
+    },
+    {
+        "P_id":15,
+        "P_Name":"Zen Wall Home Decor Lamps",
+        "P_Image":"Images/Feel/Zen Wall Home Decor Lamps.jpg",
+        "P_Price":"15,000.00",
+        "P_Description":"A wall decor lamp encapsulating the beliefs of numerous culture. The inlaid warli art, ‘ Human Spiral Chain’, against the dark rosewood, is in accordance with the tribal belief that Life as eternal joy, with no beginning & end. Its surrounding lit up with the fitted LED light. The etched corners of the lamp imitates the natural wood grain, but is also, subtly revealing Zen of Mahayana Buddhism, from the Indian root Dhyanam. This piece is inspired by a craft of Mysore, Motifs of tribal Maharashtra and Gujrat, uniting various beliefs in one. It is certainly rare and unique.",
+        "P_Category":"Feel"
+    },
+    {
+        "P_id":16,
+        "P_Name":"Eternal Tea light",
+        "P_Image":"Images/Feel/Eternal Tea light.jpg",
+        "P_Price":"3,500.00",
+        "P_Description":"The Tea light with warli art inlaid beautifully in exquisite rosewood, has traditional warli motif ‘Human Spiral Chain’ depicting Life as eternal joy, that has no beginning & end. This piece comes with a brass insert to hold the candle and protect it from wax stains. This Tea light is as beautiful as its story.",
+        "P_Category":"Feel"
+    },{
+        "P_id":17,
+        "P_Name":"Hand-Carved Convex mirror",
+        "P_Image":"Images/Feel/Hand-Carved Convex mirror.jpg",
+        "P_Price":"16,500.00",
+        "P_Description":"A Master piece indeed. The convex wall mirror with rosewood frame is intricately hand carved, over days by our expert artisan, who has honed the skill for generations. The dark lustre of rosewood carved with floral motifs revives the royalty that once was in the princely town of ‘Mysore’, the birthplace of the craft. Its not just a mirror it’s a testimonial of the craftsmanship of era bygone.",
+        "P_Category":"Feel"
+    },{
+        "P_id":18,
+        "P_Name":"Fete Floor Mirror",
+        "P_Image":"Images/Feel/Fete Floor Mirror.jpg",
+        "P_Price":"29,000.00",
+        "P_Description":"A mirror that tells a tale. White inlay work sits in striking contrast against the rich Rosewood to tell stories of Indian rural life and festivity in all its simplicity. Folks dancing on the tune of traditional Indian instruments, the drums ‘Nagara’ & the trumpets ‘Sringa’, and horse rides adding to their joy. The piece  draws you in, tempting you to touch and feel subtle textures, inviting you in to take a closer look at the stories being revealed. This full length mirror comes with the wooden stand.",
+        "P_Category":"Feel"
+    },{
+        "P_id":19,
+        "P_Name":"Revel Pen Stand",
+        "P_Image":"Images/Feel/Revel Pen Stand.jpg",
+        "P_Price":"3,250.00",
+        "P_Description":"The amalgamation of two crafts in true sense. This unusually shaped pen stand, presents the tribal art of warli not just by its motif but its form too. Its Geometric shape is what depicts the life and belief of the craft. The warli motifs inlaid showcase a scene from village celebration, folks dancing & Playing a traditional Indian drum ‘Nagara’. It’s a work of art exuding happiness.",
+        "P_Category":"Feel"
+    },{
+        "P_id":20,
+        "P_Name":"Carnival Wall Hanger",
+        "P_Image":"Images/Feel/Carnival Wall Hanger.jpg",
+        "P_Price":"14,250.00",
+        "P_Description":"A celebration in itself. This beautiful wall hanger is incomparable. Warli art set in the dark rich rosewood, showcasing the Wondrous scene of a village carnival. Folks dancing on the tune of traditional Indian instruments , the drums ‘Nagara’ & the trumpets ‘Sringa’, and horse rides adding to their joy. Utilitarian with a statement.",
+        "P_Category":"Feel"
+    }
+]

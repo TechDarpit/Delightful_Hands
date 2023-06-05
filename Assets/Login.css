@@ -1,0 +1,25 @@
+body{
+    background-size: cover;
+    background-position: 0%;
+}
+
+.txt{
+    color: whitesmoke;
+}
+
+.container{
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+.posL{
+    margin-top: 125px;
+}
+
+.posR{
+    margin-top: 100px;
+}
+
+.posFP{
+    margin-top: 100px;
+}
